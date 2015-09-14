@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container{
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+            padding: 1em 2em;
+        }
+        /* FAQ Session */
+        div, p, img{
+            box-sizing: border-box;
+        }
+
+        .message{
+            overflow: hidden;
+            margin: 0 0 1em 0;
+            padding: 0;
+        }
+        .message span{
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        .message .speaker-name{
+            display: none;
+        }
+        .message .speaker-icon{
+            float: left;
+            width: 64px;
+        }
+
+        .message .speaker-icon{
+            max-width: 100%;
+            height: auto;
+            vertical-align: bottom;
+            border: 2px solid white;
+            border-radius: 50%;
+        }
+
+        .message .message-content{
+            position: relative;
+            box-sizing: border-box;
+            width: auto;
+            min-height: 64px;
+            margin: 0 160px 0 80px;
+            padding: 1em;
+            border-radius: 10px;
+            background: white;
+        }
+
+        .message .message-content:before{
+            position: relative;
+            top: 20px;
+            left: -20px;
+            display: block;
+            width: 0;
+            height: 0;
+            content: '';
+            border-right-color: #e4f2f9;
+        }
+        .message.myself .speaker-icon{
+            float: right;
+        }
+        .message.myself .message-content{
+            margin: 0 80px 0 160px;
+            color: #000;
+            background: #fff;
+        }
+        .message.myself .message-content:before{
+            right: -20px;
+            left: auto;
+            border-color: transparent;
+            border-left-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="tf-faq" class="text-center">
+        <div class="overlay">
+            <div class="container" id="faq">
+            <div class="section-title center">
+                    <h2>FAQ</h2>
+                    <div class="line">
+                    </div>
+                </div>
+                <p class="message">
+                    <span class="speaker-icon"><img src="img/daigakusei.png" alt="Gakusei"></span>
+                    <span class="speaker-name">学生</span>
+                    <span class="message-content">デルタクロス京都ってどこにあるんですか？</span>
+                </p>
+                <p class="message myself">
+                    <span class="speaker-icon"><img src="img/deltatyan.jpg" alt="Delta"></span>
+                    <span class="speaker-name">でるたちゃん</span>
+                    <span class="message-content">デルタクロス京都は、セイワビルの2階にあるよ</span>
+                </p>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
