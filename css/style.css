@@ -287,7 +287,13 @@ ul.about-list li span{
 	color: #ffffff;
 	margin: 5px;
 	min-height: 250px;
+	border:3px #fff solid;
 }
+
+.meet:hover{
+	border:3px rgb(126, 189, 185) solid;
+}
+
 .nonpro{
 	background: url(../img/non_pro.png);
 	background-size: cover;
@@ -297,6 +303,10 @@ ul.about-list li span{
 	color: #ffffff;
 	margin: 5px;
 	min-height: 250px;
+	border:3px #fff solid;
+}
+.nonpro:hover{
+	border:3px rgb(126, 189, 185) solid;
 }
 .mokumoku{
 	background: url(../img/moku.jpg);
@@ -307,10 +317,13 @@ ul.about-list li span{
 	color: #ffffff;
 	margin: 5px;
 	min-height: 250px;
+	border:3px #fff solid;
 }
-.event:hover{
+.mokumoku:hover{
+	border:3px rgb(126, 189, 185) solid;
+}
 
-}
+
 .event_title{
 	padding: 5px 20px;
 	
