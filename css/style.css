@@ -278,8 +278,28 @@ ul.about-list li span{
 	margin: 0 auto;
 }
 
-.event{
+.meet{
 	background: url(../img/meetup.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	margin: 5px;
+	min-height: 250px;
+}
+.nonpro{
+	background: url(../img/non_pro.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	margin: 5px;
+	min-height: 250px;
+}
+.mokumoku{
+	background: url(../img/moku.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
@@ -293,9 +313,12 @@ ul.about-list li span{
 }
 .event_title{
 	padding: 5px 20px;
+	
 }
 .event_date{
 	padding: 0px 10px;
+	bottom: 10px;
+	left: 10px;
 }
 
 
