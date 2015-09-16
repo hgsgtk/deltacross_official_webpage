@@ -5,9 +5,15 @@
 //
 
 function main() {
-
+/* ready */
 (function () {
    'use strict';
+
+   /* ==============================================
+    Top View Responsive
+    =============================================== */ 
+    var hsize = $(window).height();
+    $("#tf-home .overlay").css("height", hsize + "px");
 
    /* ==============================================
   	Testimonial Slider
@@ -176,6 +182,14 @@ function main() {
     /*====================================
     twitter
     ======================================*/
+
+    /*====================================
+    Top View Responsive(resize)
+    ======================================*/
+    $(window).resize(function(){
+      var hsize = $(window).height();
+      $("#tf-home .overlay").css("height", hsize + "px");
+    });
     
 
 }());
