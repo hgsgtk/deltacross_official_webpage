@@ -105,7 +105,6 @@ ul, ol{
 #tf-menu {
 	padding: 0px;
 	transition: all 0.8s;
-	background-color: rgba(248, 248, 248, 1);
 }
 #tf-menu.navbar-default {
 	background-color: rgba(248, 248, 248, 1);
@@ -280,6 +279,16 @@ ul.about-list li span{
 .motto{
 	margin: 10px;
 }
+.motto .btn{
+	background-color: #fff;
+	border: 3px solid rgb(126, 189, 185);
+	width: 200px;
+    height: 40px;
+    transition: 0.8s;
+}
+.motto .btn:hover{
+	background-color: rgba(126, 189, 185, 0.6);
+}
 
 
 /* event */
@@ -301,39 +310,12 @@ ul.about-list li span{
 	margin: 5px;
 	min-height: 250px;
 	border:3px #fff solid;
+	transition: 0.7s;
 }
 
 .meet:hover{
 	border:3px rgb(126, 189, 185) solid;
-}
-
-.nonpro{
-	background: url(../img/non_pro.png);
-	background-size: cover;
-	background-position: center;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	color: #ffffff;
-	margin: 5px;
-	min-height: 250px;
-	border:3px #fff solid;
-}
-.nonpro:hover{
-	border:3px rgb(126, 189, 185) solid;
-}
-.mokumoku{
-	background: url(../img/moku.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	color: #ffffff;
-	margin: 5px;
-	min-height: 250px;
-	border:3px #fff solid;
-}
-.mokumoku:hover{
-	border:3px rgb(126, 189, 185) solid;
+	opacity: 0.8;
 }
 
 
@@ -487,7 +469,7 @@ img {
 	box-sizing: border-box;
 	width: auto;
 	min-height: 64px;
-	margin: 0 160px 0 80px;
+	margin: 0 100px 0 80px;
 	padding: 1em;
 	color: #333; 
 	border-radius: 10px;
@@ -562,6 +544,7 @@ img {
     height: 40px;
     line-height: 40px;
     text-align: center;
+    vertical-align: baseline;
     color: #000;
     border: 1px solid #000;
     transition-property: color,background-color;
