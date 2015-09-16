@@ -105,6 +105,7 @@ ul, ol{
 #tf-menu {
 	padding: 0px;
 	transition: all 0.8s;
+	background-color: rgba(248, 248, 248, 1);
 }
 #tf-menu.navbar-default {
 	background-color: rgba(248, 248, 248, 1);
@@ -172,7 +173,7 @@ ul, ol{
 
 .content{
 	position: relative;
-	padding: 20% 0 0;
+	padding: 10% 0 0;
 }
 
 .color{
@@ -198,7 +199,7 @@ a.fa.fa-angle-down {
 	border: 2px solid #b4b4b4;
 	border-radius: 50%;
 	font-size: 24px;
-	margin-top: 100px;
+	margin-top: 50px;
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
