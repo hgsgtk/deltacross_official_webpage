@@ -65,3 +65,6 @@ CentOS, Nginx
 
 ##参考資料
 [Markdown Here](http://markdown-here.com/)
+
+
+[画面に合わせてホーム画面の高さを変更する](http://weboook.blog22.fc2.com/blog-entry-411.html)
