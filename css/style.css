@@ -77,25 +77,18 @@ ul, ol{
 	webkit-padding: 0;
 	moz-padding: 0;
 }
-/* Navigation */
-#tf-menu {
-	padding: 20px;
-	transition: all 0.8s;
+/* header */
+#tf-header{
+	background-color: rgba(255, 255, 255, 1);
+	height: 50px;
 }
-#tf-menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+.head_text{
+	padding-top: 15px;
+	text-align: left;
+	color: rgb(126, 189, 185);
 }
-/*#tf-menu a.navbar-brand {
-text-transform: uppercase;
-font-size: 22px;
-color: #fff;
-font-weight: 900;
-}
-*/
-/* Logo style */
 #logo{
-	margin-left: 0px;
+	margin-left: 10px;
 	margin-top: -5px;
 	width: 30px;
 	height: 30px;
@@ -108,15 +101,24 @@ font-weight: 900;
 	height: 30px;
 }
 
+/* Navigation */
+#tf-menu {
+	padding: 0px;
+	transition: all 0.8s;
+}
+#tf-menu.navbar-default {
+	background-color: rgba(248, 248, 248, 1);
+	border-color: rgba(231, 231, 231, 0);
+}
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #FFF;
+	color: #000000;
 	font-size: 12px;
 	letter-spacing: 1px;
+	transition: 0.8s;
 }
-.on {
-	background-color: #222222 !important;
-	padding: 0 !important;
+#tf-menu.navbar-default .navbar-nav > li > a:hover{
+	background-color: rgba(126, 189, 185, 0.8);
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -124,6 +126,10 @@ font-weight: 900;
 	color: rgb(126, 189, 185) !important;
 	background-color: transparent;
 	font-weight: 700;
+}
+.on {
+	background-color: rgba(248, 248, 248, 0.8)!important;
+	padding: 0 !important;
 }
 
 .navbar-toggle {
@@ -246,6 +252,10 @@ ul.about-list li span{
 .media i{
 	font-size: 36px;
 	}
+
+.media-heading{
+	margin-bottom: 10px;
+}
 
 
 
